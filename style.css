@@ -1,0 +1,19 @@
+/* style.css - optional tweaks for future updates */
+body {
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Buttons hover effect */
+.btn:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+}
+
+/* Project cards subtle shadow */
+.project {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.project:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
